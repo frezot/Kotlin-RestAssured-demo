@@ -14,4 +14,4 @@
 }
 ```
 1. Ошибка вида `Server Error: No enum constant com.coolrocket.app.api.test.TestGender` дает дополнительное знание о внутреннем устройстве системы, возможно, лучше скрыть реализацию. 
-1.
+1. ...
