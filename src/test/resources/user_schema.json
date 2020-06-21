@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/User",
+  "definitions": {
+    "User": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "errorCode": {
+          "type": "integer"
+        },
+        "errorMessage": {
+          "type": [ "string", "null" ]
+        },
+        "result": {
+          "$ref": "#/definitions/Result"
+        },
+        "success": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "errorCode",
+        "errorMessage",
+        "result",
+        "success"
+      ],
+      "title": "User"
+    },
+    "Result": {
+      "type": [ "object", "null" ],
+      "additionalProperties": false,
+      "properties": {
+        "age": {
+          "type": "integer"
+        },
+        "city": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        },
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "registrationDate": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "age",
+        "city",
+        "gender",
+        "id",
+        "name",
+        "registrationDate"
+      ],
+      "title": "Result"
+    }
+  }
+}

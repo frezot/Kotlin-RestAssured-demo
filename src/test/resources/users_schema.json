@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Users",
+  "definitions": {
+    "Users": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "errorCode": {
+          "type": "integer"
+        },
+        "errorMessage": {
+          "type": "string"
+        },
+        "result": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "success": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "errorCode",
+        "errorMessage",
+        "result",
+        "success"
+      ],
+      "title": "Users"
+    }
+  }
+}
