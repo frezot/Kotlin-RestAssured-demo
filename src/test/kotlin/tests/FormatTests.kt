@@ -35,7 +35,6 @@ class FormatTests {
             .then()
             .assertHeadersIsCorrect()
             .assertBodyCorrespondToScheme(schema)
-//            .assertThat().body(matchesJsonSchemaInClasspath(schema))
     }
 
 }
