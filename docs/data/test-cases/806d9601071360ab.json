@@ -1,0 +1,122 @@
+{
+  "uid" : "806d9601071360ab",
+  "name" : "Проверяем что host жив",
+  "fullName" : "tests.SmokeTests.testHostAvailability",
+  "historyId" : "27a8ac305659bc429bea77ae00aaefc4",
+  "time" : {
+    "start" : 1592920130962,
+    "stop" : 1592920131391,
+    "duration" : 429
+  },
+  "description" : "Просто дергаем и ждем 200",
+  "descriptionHtml" : "<p>Просто дергаем и ждем 200</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Просто дергаем и ждем 200",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Исполняем GET http://dev.coolrocket.com",
+      "time" : {
+        "start" : 1592920130963,
+        "stop" : 1592920131391,
+        "duration" : 428
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "45a7131d5fa8c527",
+        "name" : "Request",
+        "source" : "45a7131d5fa8c527.html",
+        "type" : "text/html",
+        "size" : 213
+      }, {
+        "uid" : "9d40ba13682c5ce3",
+        "name" : "HTTP/1.1 200 ",
+        "source" : "9d40ba13682c5ce3.html",
+        "type" : "text/html",
+        "size" : 12931
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ответ имеет HTTP-код [200]",
+      "time" : {
+        "start" : 1592920131391,
+        "stop" : 1592920131391,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "$this$assertStatusCode",
+        "value" : "io.restassured.internal.ValidatableResponseImpl@2465ed13"
+      }, {
+        "name" : "code",
+        "value" : "200"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Api"
+  }, {
+    "name" : "host",
+    "value" : "sedna.ftc.ru"
+  }, {
+    "name" : "thread",
+    "value" : "35459@sedna.ftc.ru.Test worker(13)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.SmokeTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.SmokeTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testHostAvailability"
+  }, {
+    "name" : "suite",
+    "value" : "Smoke tests"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "806d9601071360ab.json",
+  "parameterValues" : [ ]
+}

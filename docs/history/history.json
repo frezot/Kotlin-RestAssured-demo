@@ -1,0 +1,430 @@
+{
+  "5b74eda5d129e97c5cccac75ebc55eab" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "92e395e052d6fc38",
+      "status" : "failed",
+      "statusDetails" : "Пользователи [15] возвращаются и по параметру (male) и (female)",
+      "time" : {
+        "start" : 1592920131395,
+        "stop" : 1592920131524,
+        "duration" : 129
+      }
+    } ]
+  },
+  "2ae8cd477a7a2cbb7557c7c0b5b6f3a8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "729494e91441b309",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592920130857,
+        "stop" : 1592920130954,
+        "duration" : 97
+      }
+    } ]
+  },
+  "27a8ac305659bc429bea77ae00aaefc4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "806d9601071360ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592920130962,
+        "stop" : 1592920131391,
+        "duration" : 429
+      }
+    } ]
+  },
+  "d98280f1eb3ca26362b4e1939e434b9e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f6e2f68d906b2b61",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nJSON path result.age doesn't match.\nExpected: is (a value greater than <14> and a value less than <150>)\n  Actual: 210\n",
+      "time" : {
+        "start" : 1592920161533,
+        "stop" : 1592920161655,
+        "duration" : 122
+      }
+    } ]
+  },
+  "19666d57f654e3185485fb595d61334" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d7dfb237942ae0f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592920130099,
+        "stop" : 1592920130222,
+        "duration" : 123
+      }
+    } ]
+  },
+  "fe4e069f516d28a79cbf01faf99db883" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a51f134a1074f903",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592920130778,
+        "stop" : 1592920130853,
+        "duration" : 75
+      }
+    } ]
+  },
+  "993c391fd784284b0da7708d72efd1e8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "348eeb08e03e0394",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592920163579,
+        "stop" : 1592920163623,
+        "duration" : 44
+      }
+    } ]
+  },
+  "50e018013b487dc7ee2d9cfe14e5f490" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c63fcc47ca1eb51e",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <200>.\n",
+      "time" : {
+        "start" : 1592920130299,
+        "stop" : 1592920130375,
+        "duration" : 76
+      }
+    } ]
+  },
+  "acdce6e3f71db3d42ad25bdf492621ac" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bc6e5b9e18ae042a",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nResponse body doesn't match expectation.\nExpected: The content to match the given JSON schema.\nerror: object instance has properties which are not allowed by the schema: [\"isSuccess\"]\n    level: \"error\"\n    schema: {\"loadingURI\":\"file:/Users/fserov/git/Kotlin-RestAssured-demo/build/resources/test/user_schema.json#\",\"pointer\":\"/definitions/User\"}\n    instance: {\"pointer\":\"\"}\n    domain: \"validation\"\n    keyword: \"additionalProperties\"\n    unwanted: [\"isSuccess\"]\nerror: object has missing required properties ([\"success\"])\n    level: \"error\"\n    schema: {\"loadingURI\":\"file:/Users/fserov/git/Kotlin-RestAssured-demo/build/resources/test/user_schema.json#\",\"pointer\":\"/definitions/User\"}\n    instance: {\"pointer\":\"\"}\n    domain: \"validation\"\n    keyword: \"required\"\n    required: [\"errorCode\",\"errorMessage\",\"result\",\"success\"]\n    missing: [\"success\"]\n\n  Actual: {\n  \"isSuccess\" : true,\n  \"errorCode\" : 0,\n  \"errorMessage\" : null,\n  \"result\" : null\n}\n",
+      "time" : {
+        "start" : 1592920162676,
+        "stop" : 1592920163284,
+        "duration" : 608
+      }
+    } ]
+  },
+  "c946bc35a92bb292ffe990e8815a41e4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "155c0c09538eb5f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592920163410,
+        "stop" : 1592920163575,
+        "duration" : 165
+      }
+    } ]
+  },
+  "e052db8b3dc21c2267c33b5d4939c54c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "52fb353831bda1ee",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nResponse body doesn't match expectation.\nExpected: The content to match the given JSON schema.\nerror: object instance has properties which are not allowed by the schema: [\"isSuccess\"]\n    level: \"error\"\n    schema: {\"loadingURI\":\"file:/Users/fserov/git/Kotlin-RestAssured-demo/build/resources/test/user_schema.json#\",\"pointer\":\"/definitions/User\"}\n    instance: {\"pointer\":\"\"}\n    domain: \"validation\"\n    keyword: \"additionalProperties\"\n    unwanted: [\"isSuccess\"]\nerror: object has missing required properties ([\"success\"])\n    level: \"error\"\n    schema: {\"loadingURI\":\"file:/Users/fserov/git/Kotlin-RestAssured-demo/build/resources/test/user_schema.json#\",\"pointer\":\"/definitions/User\"}\n    instance: {\"pointer\":\"\"}\n    domain: \"validation\"\n    keyword: \"required\"\n    required: [\"errorCode\",\"errorMessage\",\"result\",\"success\"]\n    missing: [\"success\"]\n\n  Actual: {\n  \"isSuccess\" : true,\n  \"errorCode\" : 0,\n  \"errorMessage\" : null,\n  \"result\" : {\n    \"id\" : 300,\n    \"name\" : \"Yaga\",\n    \"gender\" : \"magic\",\n    \"age\" : 300,\n    \"city\" : \"Slavic Forest\",\n    \"registrationDate\" : \"2013-12-13T13:13:00\"\n  }\n}\n",
+      "time" : {
+        "start" : 1592920163287,
+        "stop" : 1592920163332,
+        "duration" : 45
+      }
+    } ]
+  },
+  "6173d6b5983c53dd4a6aa712c2e773b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "402963f4824829a1",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <200>.\n",
+      "time" : {
+        "start" : 1592920130227,
+        "stop" : 1592920130292,
+        "duration" : 65
+      }
+    } ]
+  },
+  "cbb0929502f3e82e643f0dea3bb5562e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d04e9e3e6e88cfb4",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nJSON path result.id doesn't match.\nExpected: <911>\n  Actual: 94\n",
+      "time" : {
+        "start" : 1592920162035,
+        "stop" : 1592920162174,
+        "duration" : 139
+      }
+    } ]
+  },
+  "1400167dbec02422ec1613adf27f5820" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "43d3659678bbc714",
+      "status" : "failed",
+      "statusDetails" : "2 expectations failed.\nJSON path result.age doesn't match.\nExpected: is (a value greater than <14> and a value less than <150>)\n  Actual: 300\n\nJSON path result.gender doesn't match.\nExpected: one of {\"male\", \"female\"}\n  Actual: magic\n",
+      "time" : {
+        "start" : 1592920161661,
+        "stop" : 1592920162032,
+        "duration" : 371
+      }
+    } ]
+  },
+  "db2da63563d791aee8e6f0fb3d823988" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c105f0f370883d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592920130466,
+        "stop" : 1592920130573,
+        "duration" : 107
+      }
+    } ]
+  },
+  "a0d799174bb4f5f37556d69c6a754efd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3837c7414ec61a66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592920126481,
+        "stop" : 1592920129725,
+        "duration" : 3244
+      }
+    } ]
+  },
+  "6b41d338186c32d5a3ca11f1ee395436" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f9a7511ed194a91",
+      "status" : "failed",
+      "statusDetails" : "3 expectations failed.\nJSON path result.id doesn't match.\nExpected: <94>\n  Actual: 911\n\nJSON path result.age doesn't match.\nExpected: is (a value greater than <14> and a value less than <150>)\n  Actual: 911\n\nJSON path result.gender doesn't match.\nExpected: one of {\"male\", \"female\"}\n  Actual: McCloud\n",
+      "time" : {
+        "start" : 1592920162206,
+        "stop" : 1592920162666,
+        "duration" : 460
+      }
+    } ]
+  },
+  "97ac82a799052bf9cc83b8974a17ee27" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a4c29ae242f5642e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592920130723,
+        "stop" : 1592920130775,
+        "duration" : 52
+      }
+    } ]
+  },
+  "206521532113c3483e2a23bf9221cabd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4f11dd699bead2a6",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nResponse body doesn't match expectation.\nExpected: The content to match the given JSON schema.\nerror: object instance has properties which are not allowed by the schema: [\"isSuccess\"]\n    level: \"error\"\n    schema: {\"loadingURI\":\"file:/Users/fserov/git/Kotlin-RestAssured-demo/build/resources/test/users_schema.json#\",\"pointer\":\"/definitions/Users\"}\n    instance: {\"pointer\":\"\"}\n    domain: \"validation\"\n    keyword: \"additionalProperties\"\n    unwanted: [\"isSuccess\"]\nerror: object has missing required properties ([\"success\"])\n    level: \"error\"\n    schema: {\"loadingURI\":\"file:/Users/fserov/git/Kotlin-RestAssured-demo/build/resources/test/users_schema.json#\",\"pointer\":\"/definitions/Users\"}\n    instance: {\"pointer\":\"\"}\n    domain: \"validation\"\n    keyword: \"required\"\n    required: [\"errorCode\",\"errorMessage\",\"result\",\"success\"]\n    missing: [\"success\"]\n\n  Actual: {\n  \"isSuccess\" : true,\n  \"errorCode\" : 0,\n  \"errorMessage\" : null,\n  \"result\" : [ 10, 15, 33, 94, 911 ]\n}\n",
+      "time" : {
+        "start" : 1592920163347,
+        "stop" : 1592920163405,
+        "duration" : 58
+      }
+    } ]
+  },
+  "bc4f84e05ef0074f3ebe59ecbf113e6d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "61980b3bea787a88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592920130001,
+        "stop" : 1592920130096,
+        "duration" : 95
+      }
+    } ]
+  },
+  "3e2113319c004ffb834b2b4db60f96d1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7294574a8d0577f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592920130577,
+        "stop" : 1592920130709,
+        "duration" : 132
+      }
+    } ]
+  },
+  "a59e73ee6355dfc18eb765a50c58437" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e31ebe4617febdc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592920129870,
+        "stop" : 1592920129991,
+        "duration" : 121
+      }
+    } ]
+  }
+}

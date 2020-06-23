@@ -1,0 +1,221 @@
+[ {
+  "uid" : "a51f134a1074f903",
+  "name" : "Некорректный номер в запросе /user/id [6]",
+  "time" : {
+    "start" : 1592920130778,
+    "stop" : 1592920130853,
+    "duration" : 75
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "729494e91441b309",
+  "name" : "Некорректный номер в запросе /user/id [7]",
+  "time" : {
+    "start" : 1592920130857,
+    "stop" : 1592920130954,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4c29ae242f5642e",
+  "name" : "Некорректный номер в запросе /user/id [5]",
+  "time" : {
+    "start" : 1592920130723,
+    "stop" : 1592920130775,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "806d9601071360ab",
+  "name" : "Проверяем что host жив",
+  "time" : {
+    "start" : 1592920130962,
+    "stop" : 1592920131391,
+    "duration" : 429
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "92e395e052d6fc38",
+  "name" : "Корректность гендерной фильтрации",
+  "time" : {
+    "start" : 1592920131395,
+    "stop" : 1592920131524,
+    "duration" : 129
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "52fb353831bda1ee",
+  "name" : "Проверяем[2] /api/test/user/300 ⇢ user_schema.json",
+  "time" : {
+    "start" : 1592920163287,
+    "stop" : 1592920163332,
+    "duration" : 45
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c105f0f370883d6e",
+  "name" : "Некорректный номер в запросе /user/id [3]",
+  "time" : {
+    "start" : 1592920130466,
+    "stop" : 1592920130573,
+    "duration" : 107
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7294574a8d0577f9",
+  "name" : "Некорректный номер в запросе /user/id [4]",
+  "time" : {
+    "start" : 1592920130577,
+    "stop" : 1592920130709,
+    "duration" : 132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f11dd699bead2a6",
+  "name" : "Проверяем[3] /api/test/users?gender=male ⇢ users_schema.json",
+  "time" : {
+    "start" : 1592920163347,
+    "stop" : 1592920163405,
+    "duration" : 58
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f9a7511ed194a91",
+  "name" : "Проверка корректности gender пользователя",
+  "time" : {
+    "start" : 1592920162206,
+    "stop" : 1592920162666,
+    "duration" : 460
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "348eeb08e03e0394",
+  "name" : "Проверяем[5] /api/test/users ⇢ error_schema.json",
+  "time" : {
+    "start" : 1592920163579,
+    "stop" : 1592920163623,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "61980b3bea787a88",
+  "name" : "Некорректный gender в запросе /users [3]",
+  "time" : {
+    "start" : 1592920130001,
+    "stop" : 1592920130096,
+    "duration" : 95
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e31ebe4617febdc",
+  "name" : "Некорректный gender в запросе /users [2]",
+  "time" : {
+    "start" : 1592920129870,
+    "stop" : 1592920129991,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6e2f68d906b2b61",
+  "name" : "Корректность registrationDate",
+  "time" : {
+    "start" : 1592920161533,
+    "stop" : 1592920161655,
+    "duration" : 122
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d04e9e3e6e88cfb4",
+  "name" : "Идентификатор пользователя в запросе и ответе должны совпадать",
+  "time" : {
+    "start" : 1592920162035,
+    "stop" : 1592920162174,
+    "duration" : 139
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "402963f4824829a1",
+  "name" : "Некорректный номер в запросе /user/id [1]",
+  "time" : {
+    "start" : 1592920130227,
+    "stop" : 1592920130292,
+    "duration" : 65
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3837c7414ec61a66",
+  "name" : "Некорректный gender в запросе /users [1]",
+  "time" : {
+    "start" : 1592920126481,
+    "stop" : 1592920129725,
+    "duration" : 3244
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "155c0c09538eb5f4",
+  "name" : "Проверяем[4] /api/test/user/ ⇢ error_schema.json",
+  "time" : {
+    "start" : 1592920163410,
+    "stop" : 1592920163575,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d7dfb237942ae0f1",
+  "name" : "Некорректный gender в запросе /users [4]",
+  "time" : {
+    "start" : 1592920130099,
+    "stop" : 1592920130222,
+    "duration" : 123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc6e5b9e18ae042a",
+  "name" : "Проверяем[1] /api/test/user/0 ⇢ user_schema.json",
+  "time" : {
+    "start" : 1592920162676,
+    "stop" : 1592920163284,
+    "duration" : 608
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "43d3659678bbc714",
+  "name" : "Проверка корректности age в профиле",
+  "time" : {
+    "start" : 1592920161661,
+    "stop" : 1592920162032,
+    "duration" : 371
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c63fcc47ca1eb51e",
+  "name" : "Некорректный номер в запросе /user/id [2]",
+  "time" : {
+    "start" : 1592920130299,
+    "stop" : 1592920130375,
+    "duration" : 76
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

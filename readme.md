@@ -23,3 +23,5 @@
 ## Links
 - [Замечания к API](docs/remarks.md)
 - [Что улучшить](docs/todos.md)
+- [Чеклист](docs/checklist.md)
+- [Отчет](https://frezot.github.io/Kotlin-RestAssured-demo/)

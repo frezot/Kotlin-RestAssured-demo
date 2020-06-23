@@ -1,0 +1,124 @@
+{
+  "uid" : "c105f0f370883d6e",
+  "name" : "Некорректный номер в запросе /user/id [3]",
+  "fullName" : "tests.NegativeTests.testWrongUserNumber",
+  "historyId" : "db2da63563d791aee8e6f0fb3d823988",
+  "time" : {
+    "start" : 1592920130466,
+    "stop" : 1592920130573,
+    "duration" : 107
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Исполняем GET /api/test/user/1.0",
+      "time" : {
+        "start" : 1592920130467,
+        "stop" : 1592920130519,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fd2d745e25e888c2",
+        "name" : "Request",
+        "source" : "fd2d745e25e888c2.html",
+        "type" : "text/html",
+        "size" : 249
+      }, {
+        "uid" : "8bb02ae6b45d865e",
+        "name" : "HTTP/1.1 400 ",
+        "source" : "8bb02ae6b45d865e.html",
+        "type" : "text/html",
+        "size" : 822
+      } ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "/api/test/user/1.0"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ответ имеет HTTP-код [400]",
+      "time" : {
+        "start" : 1592920130519,
+        "stop" : 1592920130519,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "$this$assertStatusCode",
+        "value" : "io.restassured.internal.ValidatableResponseImpl@3e118845"
+      }, {
+        "name" : "code",
+        "value" : "400"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Api"
+  }, {
+    "name" : "host",
+    "value" : "sedna.ftc.ru"
+  }, {
+    "name" : "thread",
+    "value" : "35459@sedna.ftc.ru.Test worker(13)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.NegativeTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.NegativeTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testWrongUserNumber"
+  }, {
+    "name" : "suite",
+    "value" : "Negative tests"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c105f0f370883d6e.json",
+  "parameterValues" : [ ]
+}

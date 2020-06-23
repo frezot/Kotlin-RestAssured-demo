@@ -1,0 +1,142 @@
+{
+  "uid" : "348eeb08e03e0394",
+  "name" : "Проверяем[5] /api/test/users ⇢ error_schema.json",
+  "fullName" : "tests.FormatTests.testResponseConformsToSchema",
+  "historyId" : "993c391fd784284b0da7708d72efd1e8",
+  "time" : {
+    "start" : 1592920163579,
+    "stop" : 1592920163623,
+    "duration" : 44
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Исполняем GET /api/test/users",
+      "time" : {
+        "start" : 1592920163580,
+        "stop" : 1592920163613,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c90f29e035267d77",
+        "name" : "Request",
+        "source" : "c90f29e035267d77.html",
+        "type" : "text/html",
+        "size" : 243
+      }, {
+        "uid" : "48da27c189ba2909",
+        "name" : "HTTP/1.1 400 ",
+        "source" : "48da27c189ba2909.html",
+        "type" : "text/html",
+        "size" : 697
+      } ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "/api/test/users"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ответ содержит правильные заголовки (Transfer-Encoding, Connection, Server, Content-Type)",
+      "time" : {
+        "start" : 1592920163614,
+        "stop" : 1592920163614,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "$this$assertHeadersIsCorrect",
+        "value" : "io.restassured.internal.ValidatableResponseImpl@445218a1"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ответ совпадает с json-схемой",
+      "time" : {
+        "start" : 1592920163615,
+        "stop" : 1592920163623,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "$this$assertBodyCorrespondToScheme",
+        "value" : "io.restassured.internal.ValidatableResponseImpl@445218a1"
+      }, {
+        "name" : "filename",
+        "value" : "error_schema.json"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Api"
+  }, {
+    "name" : "host",
+    "value" : "sedna.ftc.ru"
+  }, {
+    "name" : "thread",
+    "value" : "35459@sedna.ftc.ru.Test worker(13)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.FormatTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.FormatTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testResponseConformsToSchema"
+  }, {
+    "name" : "suite",
+    "value" : "Format tests"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "348eeb08e03e0394.json",
+  "parameterValues" : [ ]
+}
