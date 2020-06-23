@@ -6,12 +6,10 @@ import io.qameta.allure.Severity
 import io.qameta.allure.SeverityLevel
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.TestInstance
 import utils.assertStatusCode
 import utils.touchBaseUrl
 
 @DisplayName("Smoke tests")
-@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class SmokeTests {
 
     @Test

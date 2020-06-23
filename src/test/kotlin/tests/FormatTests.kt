@@ -4,7 +4,6 @@ import io.qameta.allure.Feature
 import io.qameta.allure.Severity
 import io.qameta.allure.SeverityLevel
 import org.junit.jupiter.api.DisplayName
-import org.junit.jupiter.api.TestInstance
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.ValueSource
 import utils.assertBodyCorrespondToScheme
@@ -13,7 +12,6 @@ import utils.callGet
 
 
 @DisplayName("Format tests")
-@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class FormatTests {
 
 

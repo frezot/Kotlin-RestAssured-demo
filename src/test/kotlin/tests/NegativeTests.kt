@@ -6,14 +6,12 @@ import io.qameta.allure.SeverityLevel
 import org.hamcrest.CoreMatchers.containsString
 import org.hamcrest.Matchers.lessThan
 import org.junit.jupiter.api.DisplayName
-import org.junit.jupiter.api.TestInstance
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.ValueSource
 import utils.assertStatusCode
 import utils.callGet
 
 @DisplayName("Negative tests")
-@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class NegativeTests {
 
     @ParameterizedTest(name = "Некорректный gender в запросе /users [{index}]")
